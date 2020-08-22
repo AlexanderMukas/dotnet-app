@@ -11,9 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             double x = 23.73;
-            double y = 37.27;
+            double y = 36.27;
             Console.WriteLine("Hello World, Alexander!");
-            Console.WriteLine("SumTwoNum of ", x.ToString(), "and ", y.ToString(), "= ", SumTwoNum(x,y));
+            Console.WriteLine($"SumTwoNum of {x.ToString()} and  { y.ToString()} =  { SumTwoNum(x, y)}"); 
         }
     }
 }
